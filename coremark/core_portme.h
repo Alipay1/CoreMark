@@ -76,14 +76,14 @@ typedef clock_t CORE_TICKS;
 */
 #ifndef COMPILER_VERSION
 #ifdef __GNUC__
-#define COMPILER_VERSION "GCC"__VERSION__
+#define COMPILER_VERSION "ArmccV6.19"
 #else
 #define COMPILER_VERSION "Please put compiler version here (e.g. gcc 4.1)"
 #endif
 #endif
 #ifndef COMPILER_FLAGS
 #define COMPILER_FLAGS \
-     "-o3"		 /* "Please put compiler flags here (e.g. -o3)" */
+     "-O3"		 /* "Please put compiler flags here (e.g. -o3)" */
 #endif
 #ifndef MEM_LOCATION
 #define MEM_LOCATION "STACK"
